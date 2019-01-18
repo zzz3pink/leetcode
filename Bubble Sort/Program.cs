@@ -15,6 +15,7 @@ namespace Bubble_Sort
             ShowSord(array);
 
             Console.ReadKey();
+            Console.ReadLine();
         }
 
         static void ShowSord(int[] array)
