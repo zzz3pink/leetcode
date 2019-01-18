@@ -21,19 +21,18 @@ namespace Bubble_Sort
         {
             foreach (var num in array)
             {
-                Console.WriteLine($"{num}");
+                Console.Write($"{num} ");
             }
-            Console.WriteLine();
         }
 
         static void BubbleSort(int[] array)
         {
             int swap;
-            for (int i = 0; i < array.Length; i++)
+            for (int i = 0; i < array.Length - 1; i++)
             {
                 for (int j = 0; j < array.Length - i - 1; j++)
                 {
-                    if (array[j] > array[j + 1])
+                    if (array[j] > array[j + 1]) 
                     {
                         swap = array[j];
                         array[j] = array[j + 1];
