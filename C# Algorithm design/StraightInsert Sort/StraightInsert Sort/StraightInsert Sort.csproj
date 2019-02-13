@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4C6DFE2F-2151-4B5F-BF47-0F62875BB78F}</ProjectGuid>
+    <ProjectGuid>{0026A915-ADDA-4E64-9AF7-76DDB8ECBA83}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Bubble_Sort</RootNamespace>
-    <AssemblyName>Bubble Sort</AssemblyName>
+    <RootNamespace>StraightInsert_Sort</RootNamespace>
+    <AssemblyName>StraightInsert Sort</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
