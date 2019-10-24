@@ -55,6 +55,7 @@ namespace _1.Two_Sum
                 {
                     return new int[] { dictionary[complement], i };
                 }
+                //Give key nums[i], value i.
                 dictionary[nums[i]] = i;
             }
             throw new ArgumentException();
